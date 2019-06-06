@@ -1,0 +1,10 @@
+LIBRARY ieee;
+use ieee.std_logic_1164.all;
+ENTITY ula IS
+	Port(En:IN STD_logic_Vector(7 downto 0);
+			Des:IN STD_logic_Vector(7 downto 0);
+			Sd: OUT STD_logic_Vector(15 downto 0));
+END ula;
+Architecture deslocar of ula is 
+Signal 
+END deslocar;
